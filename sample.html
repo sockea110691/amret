@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Land information</title>
     <link href="./cropped-logo.png" rel="SHORTCUT ICON" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&family=Moul&display=swap" rel="stylesheet">
 </head>
 <style>
 
@@ -19,7 +22,7 @@
 /* Mobile-first media queries */
 @media screen and (min-width: 768px) {
 .screen {
-         width: 95%;
+         width: 100%;
         }
         
         /* Tablet-specific styles */
@@ -27,7 +30,7 @@
 
 @media screen and (min-width: 1024px) {
 .screen {
-            width: 85%;
+            width: 100%;
         }
         
         /* Desktop-specific styles */
@@ -41,11 +44,10 @@
         margin: 3% 2%;
         padding: 5px;
         }
-
 .picture {
         position: absolute;
-        width: 65%;
-        height: 4%;
+        width: 70%;
+        height: 6%;
         margin-bottom: 5px;
         margin-top: 5px;
         }
@@ -95,18 +97,19 @@
 .table {
         border-collapse: collapse;
         width: 98%;
-        height: 20px;
+        height: 17px;
         margin: 1px;
-        font-family: Arial, Helvetica, sans-serif, khmer MEF1;
-        font-size: 14px;
         border: 1px rgb(50, 49, 49) solid;
         }
 .table th,
 table td {
         font-size: 14px;
-        font-family: Arial, Helvetica, sans-serif, khmer;
+        font-family: "Battambang", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
         text-align: left;
-        border: 1px black solid;
+        border: 1px gray solid;
         padding-left: 10px;
         padding: 10px;
         }
@@ -115,11 +118,10 @@ table td {
         <div>
             <img src="./mlm_name.png" alt="header" class="picture">
                 <br>
-                <br>
             <button class="icon-button"
                     style="border: 1px solid rgb(183, 181, 181); 
                             font-family: Moul, serif;
-                            font-weight: 100;
+                            font-weight: 400;
                             font-style: normal;
                             font-size: 14px; 
                             color: rgb(242, 243, 247);">
@@ -138,7 +140,7 @@ table td {
             <button class="info-button"
                     style="border: 1px solid rgb(183, 181, 181);  
                             font-family: Moul, serif;
-                            font-weight: 100;
+                            font-weight: 400;
                             font-style: normal; font-size: 14px;
                             color: rgb(242, 243, 247);">
                 <svg xmlns="http://www.w3.org/2000/svg" 
@@ -158,15 +160,13 @@ table td {
                             (ធ្វើបច្ចុប្បន្នភាពៈ 18-06-2025 17:00)
                 </p>
     <table class="table">
-        <tr style="background-color: #ecf0f1
-                    font-family: Battambang, system-ui;
-                    font-weight: 200;
-                    font-style: normal;">
+        <tr style="background-color: #ecf0f1">
             <td colspan="2">វិញ្ញាបនបត្រសម្គាល់ម្ចាស់អចលនវត្ថុ៖</td>
         </tr>
         <tr>
             <td colspan="2">12080301-0648</td>
         </tr>
+        
         <tr style="background-color: #ecf0f1">
             <td colspan="2">
             ទីតាំងក្បាលដី៖
