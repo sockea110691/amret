@@ -10,47 +10,45 @@
 
 /* Container for content */
 .screen {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        }
 
 /* Mobile-first media queries */
 @media screen and (min-width: 768px) {
 .screen {
-    width: 85%;
-  }
-  
-  /* Tablet-specific styles */
-}
+         width: 95%;
+        }
+        
+        /* Tablet-specific styles */
+        }
 
 @media screen and (min-width: 1024px) {
 .screen {
-    width: 80%;
-  }
-  
-  /* Desktop-specific styles */
-}
-
-
+            width: 85%;
+        }
+        
+        /* Desktop-specific styles */
+        }
 
 .screen {
         font-family: Arial, Helvetica, khmer, sans-serif;
         background-color: white
         color: #333;
-        line-height: 1.2;
+        line-height: 1.6;
         margin: 3% 2%;
         padding: 5px;
-}
+        }
 
 .picture {
-    position: absolute;
-    width: 65%;
-    height: 4%;
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
+        position: absolute;
+        width: 65%;
+        height: 4%;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        }
 .icon-button {
         display: inline-flex;
         align-items: start;
@@ -62,19 +60,18 @@
         font-size: 18px;
         cursor: pointer;
         transition: background-color 0.2s;
-        margin-top: 15px;
-        width: 49%;
-        
-  }
-  .icon-button:hover {
-    background-color: hsl(240, 2%, 90%);
-    text-align: center;
-  }
-  .icon-button svg {
+        margin-top: 10px;
+        width: 49%;     
+        }
+.icon-button:hover {
+        background-color: hsl(240, 2%, 90%);
+        text-align: center;
+        }
+.icon-button svg {
         width: 20px;
         height: 20px;
-  }
-  .info-button {
+        }
+.info-button {
         display: inline-flex;
         align-items: start;
         gap: 8px;
@@ -84,132 +81,148 @@
         border-radius: 1px;
         font-size: 18px;
         cursor: pointer;
-        text-align: center;
         transition: background-color 0.2s;
         width: 49%;
-        
-  }
-  .info-button:hover {
+        }
+.info-button:hover {
         background-color: hsl(240, 2%, 90%);
-
-  }
-  .info-button svg {
+        text-align: center;
+        }
+.info-button svg {
         width: 20px;
         height: 20px;
-  }
-  .table {
+        }
+.table {
         border-collapse: collapse;
         width: 98%;
         height: 20px;
         margin: 1px;
         font-family: Arial, Helvetica, sans-serif, khmer MEF1;
         font-size: 14px;
-        border: 1px black solid;
-        
-       
-        
-        
-    }
-    .table th,
-    table td {
+        border: 1px rgb(50, 49, 49) solid;
+        }
+.table th,
+table td {
         font-size: 14px;
         font-family: Arial, Helvetica, sans-serif, khmer;
         text-align: left;
         border: 1px black solid;
         padding-left: 10px;
-        padding: 7px;
-        
-    }
-
+        padding: 10px;
+        }
 </style>
-<body>
-        <div class="screen">
+<body class="screen">
+        <div>
             <img src="./mlm_name.png" alt="header" class="picture">
                 <br>
                 <br>
-        
-            <button style="border: 1px solid rgb(183, 181, 181); font-family: Arial, Helvetica, sans-serif, khmer MEF2; font-size: 14px; color: rgb(242, 243, 247);" class="icon-button">
-                
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <button class="icon-button"
+                    style="border: 1px solid rgb(183, 181, 181); 
+                            font-family: Moul, serif;
+                            font-weight: 100;
+                            font-style: normal;
+                            font-size: 14px; 
+                            color: rgb(242, 243, 247);">
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                        width="20"
+                        height="16" 
+                        viewBox="0 0 24 24" 
+                        fill="none" 
+                        stroke="currentColor" 
+                        stroke-width="2" 
+                        stroke-linecap="round">
                     <path d="M8 6h13M8 12h13M8 18h13M3 6h1v1H3zM3 12h1v1H3zM3 18h1v1H3z" class="icon-button svg"/>
                 </svg>
                     ពត៍មានក្បាលដី
             </button>
-            <button style="border: 1px solid rgb(183, 181, 181); font-family: Arial, Helvetica, sans-serif, khmer MEF2; font-size: 14px; color: rgb(242, 243, 247);" class="info-button">
-                
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="16">
+            <button class="info-button"
+                    style="border: 1px solid rgb(183, 181, 181);  
+                            font-family: Moul, serif;
+                            font-weight: 100;
+                            font-style: normal; font-size: 14px;
+                            color: rgb(242, 243, 247);">
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                        viewBox="0 0 24 24" 
+                        fill="currentColor" 
+                        width="20" 
+                        height="16">
                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" class="info-icon svg"/>
                 </svg>
                     ពត៍មានអំពីបន្ទុក
             </button>
-                <p style="margin: 5px; font-size: 12px; font-family: Arial, Helvetica, sans-serif, khmer MEF1;">(ធ្វើបច្ចុប្បន្នភាពៈ 18-06-2025 17:00)</p>
-
-
-
-            <table class="table">
-                <tr style="background-color: #ecf0f1">
-                    <td colspan="2">វិញ្ញាបនបត្រសម្គាល់ម្ចាស់ងចលនវត្ថុ៖</td>
-                </tr>
-                <tr>
-                    <td colspan="2">12080301-0648</td>
-                </tr>
-                <tr style="background-color: #ecf0f1">
-                    <td colspan="2">
-                        ទីតាំងក្បាលដី៖
-                    </td>
-                </tr>
-                <tr >
-                    <td colspan="2">ភូមិ ​៖ ឃ្មួញ​ ឃុំ/សង្កាត់៖ ឃ្មួញ ស្រុក/ខណ្ឌ៖ ឬស្សីកែវ រាជធានី/ខេត្ត៖ ភ្នំពេញ</td>
-                </tr>
-                <tr>
-                    <td style="width: 50%; background-color: #ecf0f1">
-                        លេខក្បាលដី៖
-                    </td>
-                    <td>
-                        648
-                    </td>
-                </tr>
-                <tr>
-                    <td style="width: 50%; background-color: #ecf0f1">
-                        ទំហំ(ជាម៉ែត្រការ៉េ)៖
-                    </td>
-                    <td>
-                        5618
-                    </td>
-                </tr>
-                <tr>
-                    <td style="width: 50%; background-color: #ecf0f1">
-                        រូបភាពប្រើប្រាស់ដី៖
-                    </td>
-                    <td>
-                        លំនៅឋាន
-                    </td>
-                </tr>
-                <tr>
-                    <td style="width: 50%; background-color: #ecf0f1">
-                        លក្ខណៈនៃការប្រើប្រាស់ដី៖
-                    </td>
-                    <td>
-                        ឯកជន
-                    </td>
-                </tr>
-                <tr>
-                    <td style="width: 50%; background-color: #ecf0f1">
-                        ប្រភេទទ្រព្យ៖
-                    </td>
-                    <td>
-                        ទ្រព្យអវិភាគ
-                    </td>
-                </tr>
-                <tr>
-                    <td style="width: 50%; background-color: #ecf0f1">
-                        ម្ចាស់កម្មសិទ្ធិ៖
-                    </td>
-                    <td>
-                        សុទ្ធ លីដា និង ម៉ុល សេងហ៊ាង (កម្មសិទ្ធករនៃទ្រព្យអវិភាគ)
-                    </td>
-                </tr>
-            </table>  
-    </div>
+                <p style="margin: 5px; 
+                        font-size: 12px; 
+                        font-family: Battambang, system-ui;
+                        font-weight: 400;
+                        font-style: normal;">
+                            (ធ្វើបច្ចុប្បន្នភាពៈ 18-06-2025 17:00)
+                </p>
+    <table class="table">
+        <tr style="background-color: #ecf0f1
+                    font-family: Battambang, system-ui;
+                    font-weight: 200;
+                    font-style: normal;">
+            <td colspan="2">វិញ្ញាបនបត្រសម្គាល់ម្ចាស់អចលនវត្ថុ៖</td>
+        </tr>
+        <tr>
+            <td colspan="2">12080301-0648</td>
+        </tr>
+        <tr style="background-color: #ecf0f1">
+            <td colspan="2">
+            ទីតាំងក្បាលដី៖
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">ភូមិ ​៖ ឃ្មួញ​ ឃុំ/សង្កាត់៖ ឃ្មួញ ស្រុក/ខណ្ឌ៖ ឬស្សីកែវ រាជធានី/ខេត្ត៖ ភ្នំពេញ</td>
+        </tr>
+        <tr>
+            <td style="width: 50%; background-color: #ecf0f1">
+                លេខក្បាលដី៖
+            </td>
+            <td>
+                648
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 50%; background-color: #ecf0f1">
+                ទំហំ(ជាម៉ែត្រការ៉េ)៖
+            </td>
+            <td>
+                5618
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 50%; background-color: #ecf0f1">
+                រូបភាពប្រើប្រាស់ដី៖
+            </td>
+            <td>
+                កសិកម្ម
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 50%; background-color: #ecf0f1">
+                 លក្ខណៈនៃការប្រើប្រាស់ដី៖
+            </td>
+            <td>
+                ឯកជន
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 50%; background-color: #ecf0f1">
+                ប្រភេទទ្រព្យ៖
+            </td>
+            <td>
+                 កម្មសិទ្ធិអវិភាគ
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 50%; background-color: #ecf0f1">
+                ម្ចាស់កម្មសិទ្ធិ៖
+            </td>
+            <td>
+                 សុទ្ធ លីដា និង ម៉ុល សេងហ៊ាង (កម្មសិទ្ធករនៃទ្រព្យអវិភាគ)
+            </td>
+        </tr>
+    </table>  
 </body>
 </html>
