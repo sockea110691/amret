@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Land information</title>
+    <title>land information</title>
     <link href="./cropped-logo.png" rel="SHORTCUT ICON" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&family=Moul&display=swap" rel="stylesheet">
 </head>
 <style>
-
-/* Container for content */
-.screen {
+    /* Container for content */
+.land-infor {
         width: 90%;
         max-width: 1200px;
         margin: 0 auto;
@@ -21,7 +20,7 @@
 
 /* Mobile-first media queries */
 @media screen and (min-width: 768px) {
-.screen {
+.land-infor {
          width: 100%;
          margin-left: 20px;
          margin-right: 20px;
@@ -31,14 +30,14 @@
         }
 
 @media screen and (min-width: 1024px) {
-.screen {
+.land-infor {
             width: 100%;
         }
         
         /* Desktop-specific styles */
         }
 
-.screen {
+.land-infor {
         font-family: Arial, Helvetica, khmer, sans-serif;
         background-color: white
         color: #333;
@@ -96,31 +95,59 @@
         width: 20px;
         height: 20px;
         }
-.table {
-        border-collapse: collapse;
+.box {
+        background-color: white;
+        position: relative;
+        border-radius: 3px;
+        border: 1px gray solid;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        align-items: center;
         width: 98%;
-        height: 15px;
-        margin: 1px;
-        border: 1px gray solid;
+        height: 100%;
         }
-.table th,
-table td {
-        font-size: 14px;
-        font-family: "Battambang", system-ui;
+.box td {
+        font-family: Battambang, system-ui, Helvetica;
         font-weight: 400;
-        font-style: normal;
+        color: black;
+        text-align: center;
         font-size: 14px;
-        text-align: left;
-        border: 1px gray solid;
-        padding-left: 10px;
-        padding: 10px;
+        line-height: 1.6;
+        padding-top: 40px;
         }
+
+.button-2 {
+        display: inline;
+        align-items: center;
+        border-radius: 1px;
+        cursor: pointer;
+        width: 300px;
+        height: 100px;
+        }
+.box {
+    align-items: center;
+    position: relative;
+    width: 98%;
+    background-color: white;
+    align-items: center;
+    border: 1px gray solid;
+    border-style: inset;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
 </style>
-<body class="screen">
-        <div>
-            <img src="./mlm_name.png" alt="header" class="picture">
+<body class="land-infor">
+    <img src="./mlm_name.png" alt="header" class="picture">
                 <br>
-            <button class="icon-button"
+           <a href="sample.html" target="_self"> <button class="icon-button"
                     style="border: 1px solid rgb(183, 181, 181); 
                             font-family: Moul, serif;
                             font-weight: 400;
@@ -138,8 +165,8 @@ table td {
                     <path d="M8 6h13M8 12h13M8 18h13M3 6h1v1H3zM3 12h1v1H3zM3 18h1v1H3z" class="icon-button svg"/>
                 </svg>
                     ពត៍មានក្បាលដី
-            </button>
-            <a href="tex.html" target="_self"><button class="info-button"
+            </button></a>
+            <button class="info-button"
                     style="border: 1px solid rgb(183, 181, 181);  
                             font-family: Moul, serif;
                             font-weight: 400;
@@ -153,7 +180,7 @@ table td {
                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" class="info-icon svg"/>
                 </svg>
                     ពត៍មានអំពីបន្ទុក
-            </button></a>
+            </button>
                 <p style="margin: 5px; 
                         font-size: 12px; 
                         font-family: Battambang, system-ui;
@@ -161,70 +188,77 @@ table td {
                         font-style: normal;">
                             (ធ្វើបច្ចុប្បន្នភាពៈ 19-06-2025 17:00)
                 </p>
-    <table class="table">
-        <tr style="background-color: #ecf0f1">
-            <td colspan="2">វិញ្ញាបនបត្រសម្គាល់ម្ចាស់អចលនវត្ថុ៖</td>
-        </tr>
-        <tr>
-            <td colspan="2">12080301-0648</td>
-        </tr>
-        
-        <tr style="background-color: #ecf0f1">
-            <td colspan="2">
-            ទីតាំងក្បាលដី៖
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">ភូមិ ​៖ ឃ្មួញ​ ឃុំ/សង្កាត់៖ ឃ្មួញ ស្រុក/ខណ្ឌ៖ ឬស្សីកែវ រាជធានី/ខេត្ត៖ ភ្នំពេញ</td>
-        </tr>
-        <tr>
-            <td style="width: 50%; background-color: #ecf0f1">
-                លេខក្បាលដី៖
-            </td>
-            <td>
-                648
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 50%; background-color: #ecf0f1">
-                ទំហំ(ជាម៉ែត្រការ៉េ)៖
-            </td>
-            <td>
-                5618
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 50%; background-color: #ecf0f1">
-                រូបភាពប្រើប្រាស់ដី៖
-            </td>
-            <td>
-                កសិកម្ម
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 50%; background-color: #ecf0f1">
-                 លក្ខណៈនៃការប្រើប្រាស់ដី៖
-            </td>
-            <td>
-                ឯកជន
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 50%; background-color: #ecf0f1">
-                ប្រភេទទ្រព្យ៖
-            </td>
-            <td>
-                 កម្មសិទ្ធិអវិភាគ
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 50%; background-color: #ecf0f1">
-                ម្ចាស់កម្មសិទ្ធិ៖
-            </td>
-            <td>
-                 សុទ្ធ លីដា និង ម៉ុល សេងហ៊ាង (កម្មសិទ្ធិករនៃទ្រព្យអវិភាគ)
-            </td>
-        </tr>
-    </table>  
+                <p style="font-family: Battambang, system-ui, Helveti;
+                            font-weight: 400;
+                            font-size: 14px;
+                            font-style: normal;">វិញ្ញាបនបត្រសម្គាល់ម្ចាស់អចលនវត្ថុ៖ <b>12080301-0648</b></p>
+   
+
+
+        <div class="box">
+                    <p style="font-family: battambang, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                font-size: 14px;
+                                font-weight: 400;
+                                font-style: normal;">
+                                                    តម្លៃសេវាទទួលព័ត៌មានសុរិយោដី 20 000 រៀល
+                    </p>
+                    <br>
+
+        <div class="button-2">
+            <button style=" font-family: Battambang, system-ui;
+                            font-weight: 400;
+                            color: white;
+                            font-size: 18px;
+                            background-color:  #2f9ae4;
+                            border-radius: 2px;
+                            border: 1px gray solid;
+                            cursor: pointer;">
+                    ចូលមើលពត៍មាន
+            </button>
+                <br>
+                <br>
+            <a href="https://auth.camdigikey.gov.kh/login?loginToken=eyJleHBpcnlEYXRlIjoxNzUwMzg4NTA5NTE1LCJhbGciOiJTSEE1MTJ3aXRoRUNEU0EiLCJ0eXAiOiJKV1QifQ%3D%3D.W3yBGQqK1wgc3D8h6ydTNOPLgXeIOulwpBu3VSPzSakiw4DpXRUvWw3xaszwgPuzHC5hZDxv4GeZKt--bZJGtNMbqBmURiNq5SpOnouASbd3BCy5AHUSIJ6YHCZuvzKDTvtD0L6ygLMx_4E7j1ODnsVJoh10ORTBnCXxL-Sq4OnH0ashks-EmWlDw182iSbJQ4ajCfG94lEaNiIFD4rXpht-kH5QScoYDuX8QIZIl6Fpg6hE79i2Je4f36wCP65-7JgHHimh_DyCRayvw-NCrv6LL4X7V4bivX36sFapQCyRtAY0LUCCXLLVuE1752yVRVpZEz9HPNbX1RFG-oj_Vw%3D%3D.MIGGAkFR3jzcDP-vakE3ZzyAB7VZDwYu4wVtrOcfWBolS95nmANKlyRFniyZetG_gDZovqwHPuR4kiQ_d7v3kLXs893mVgJBFYxgSVjLSkrOOCFOgvVoX4Tt6Jc8QHoskf54f0HYsGRzyNwS-QtEB-_oamwT99g9DaH8BWDSwAp77eixol5PGEc%3D" target="_self">
+            <button style=" font-family: Battambang, system-ui;
+                            font-weight: 400;
+                            text-align: center;
+                            color: white;
+                            font-size: 14px;
+                            background-color: #2f9ae4;
+                            border: 1px gray solid;
+                            border-radius: 2px;
+                            cursor: pointer;">
+                    ខ្ញុំមាន CamDigikey
+            </button>
+            </a>
+        </div>
+
+        </div>
+           
+
+
+
+            
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
 </body>
 </html>
