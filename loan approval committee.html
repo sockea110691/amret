@@ -23,7 +23,7 @@
         margin: 0 auto;
         padding: 20px;
         }
-                /* Mobile-first media queries */
+        /* Mobile-first media queries */
         @media screen and (min-width: 768px) {
         .screen {
             width: 85%;
@@ -39,9 +39,16 @@
         
         /* Desktop-specific styles */
         }
+       
+        .head-content {
+            padding-left: 2px;
+            text-align: start;
+            margin: 1px;
+            display: flex;
+            }
         .logo {
-                width: 100px;
-                height: 100px;
+                width: 80px;
+                height: 80px;
                 background: #808080;
                 border-radius: 50%;
                 display: flex;
@@ -50,24 +57,18 @@
                 color: #110f0f;
                 font-size: 30px;
                 font-weight: 0;
-                font-family: Arial, sans-serif;     
+                font-family: Arial, sans-serif; 
             }
-        .head-content {
-            padding-left: 2px;
-            text-align: start;
-            margin: 1px;
-            display: flex;
-            }
-        .logo {
-            margin-top: 5px;
-            margin-left: 5px;
-            margin-right: 10px;
-        }
         .ragraph {
             margin: 8px;
             justify-items: start;
-            padding-bottom: 1px;
-            line-height: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            margin-top: -10px;
+        }
+        span {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
         }
         .excell-paragraph {
             display: flex;
@@ -112,20 +113,18 @@
 <body>
     <div class="screen">
                     <div class="head-content">
-                        <div class="logo", style="font-size: 40px;">RS</div>
-                        <div class="ragraph" style="line-height: 1.6;">
-                            <p style="font-size: 15px;font-family: Arial, Helvetica, sans-serif;">
-                                <b>Mon 7/1/25 2:11 PM</b>
-                            </p>
-                                <p style="font-size: 18px;font-family: Arial, Helvetica, sans-serif;">
-                                    RMCD-Sea Sovan<br>Committee HQ Approved SME Loan internal refinance_PP-PCD_Uy Ry_55,000 USD
-                                </p>  
+                        <div class="logo">RS</div>
+                        <div class="ragraph" style="line-height: 1.5;">
+                            <p>
+                                <span><b>Mon 7/1/25 9:51 AM</b></span><br>
+                                RMCD-Sea Sovan<br>Committee HQ Approved SME Loan internal refinance_PP-PCD_Uy Ry_55,000 USD
+                            </p>  
                         </div>    
                     </div>
-                        <div style="font-family: Arial, Helvetica, sans-serif;">
+                    <div style="font-family: Arial, Helvetica, sans-serif;">
                                 <p>To&nbsp;&nbsp;PP-PCD Branch Manager; PCD-DBM</p>
                                 <p>Cc&nbsp;&nbsp;HOR-PP-Yue Kang; HRCR-Ka-nut Soeurn; RMCD-Thun Thy; MRCD-Kriya;RMD-Thung Savy;RMCD- Sum Vanak;RMCD-Heng Sombamnorng</p>
-                        </div>
+                    </div>
             <hr>
                     <div class="excell-paragraph">
                         <div class="excel-img">
