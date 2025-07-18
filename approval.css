@@ -76,8 +76,8 @@ a {
     justify-content: center;
     align-items: center;
     width: 97%;
-    height: 70%;
-    margin: 10px;
+    height: 50%;
+    margin: 10px 15px;
     background-color: white;
     border: 1px solid hsl(0, 7%, 92%);
     border-radius: 8px;
