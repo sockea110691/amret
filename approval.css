@@ -255,9 +255,9 @@ h4 {
     right: 10px;
     background-color: hwb(0 92% 8%);
     border-radius: 8%;
+    padding: 5px 2px;
     width: 100px;
     height: 20px;
-    padding: 5px 2px;
     top: 470px;
     text-align: center;
 }
